@@ -34,6 +34,7 @@ export const handle: APIGatewayProxyHandler = async (event) => {
     Item: todo
   }).promise();
 
+  // Created with Success
   return {
     statusCode: 201,
     body: JSON.stringify({

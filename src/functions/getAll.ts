@@ -27,6 +27,7 @@ export const handle: APIGatewayProxyHandler = async (event) => {
     }
   }
 
+  // Created with Success
   return {
     statusCode: 200,
     body: JSON.stringify({
